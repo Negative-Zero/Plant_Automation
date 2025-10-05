@@ -1,0 +1,24 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# PlatformIO / Arduino build
+.pio/
+.cmake/
+.ccls-cache/
+.clangd/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+build/
+*.elf
+*.bin
+*.map
+*.log
+
+# Python/Node (future)
+__pycache__/
+*.py[cod]
+.env
+node_modules/
